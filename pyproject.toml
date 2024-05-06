@@ -20,6 +20,7 @@ extraction-openai-functions = {path = "packages/extraction-openai-functions", de
 cassandra-synonym-caching = {path = "packages/cassandra-synonym-caching", develop = true}
 rag-conversation = {path = "packages/rag-conversation", develop = true}
 openai-functions-agent = {path = "packages/openai-functions-agent", develop = true}
+research-assistant = {path = "packages/research-assistant", develop = true}
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"
