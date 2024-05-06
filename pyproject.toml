@@ -16,6 +16,10 @@ langchain-cli = "*"
 pirate-speak = { path = "packages/pirate-speak" }
 python-dotenv = "^1.0.0"
 langchain = "^0.1.10"
+extraction-openai-functions = {path = "packages/extraction-openai-functions", develop = true}
+cassandra-synonym-caching = {path = "packages/cassandra-synonym-caching", develop = true}
+rag-conversation = {path = "packages/rag-conversation", develop = true}
+openai-functions-agent = {path = "packages/openai-functions-agent", develop = true}
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"
