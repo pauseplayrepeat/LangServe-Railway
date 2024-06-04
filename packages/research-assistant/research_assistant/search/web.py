@@ -157,9 +157,9 @@ def load_json(s):
         return {}
 
 
-search_query = SEARCH_PROMPT | ChatOpenAI(temperature=0) | StrOutputParser() | load_json
+search_query = SEARCH_PROMPT | ChatOpenAI(temperature=0, model="gpt-4") | StrOutputParser() | load_json
 choose_agent = (
-    CHOOSE_AGENT_PROMPT | ChatOpenAI(temperature=0) | StrOutputParser() | load_json
+    CHOOSE_AGENT_PROMPT | ChatOpenAI(temperature=0, model="gpt-4") | StrOutputParser() | load_json
 )
 
 get_search_queries = (

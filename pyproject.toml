@@ -21,6 +21,9 @@ cassandra-synonym-caching = {path = "packages/cassandra-synonym-caching", develo
 rag-conversation = {path = "packages/rag-conversation", develop = true}
 openai-functions-agent = {path = "packages/openai-functions-agent", develop = true}
 research-assistant = {path = "packages/research-assistant", develop = true}
+robocorp-action-server = {path = "packages/robocorp-action-server", develop = true}
+openai-functions-tool-retrieval-agent = {path = "packages/openai-functions-tool-retrieval-agent", develop = true}
+rag-pinecone-multi-query = {path = "packages/rag-pinecone-multi-query", develop = true}
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"
